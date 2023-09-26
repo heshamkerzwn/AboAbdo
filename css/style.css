@@ -1554,7 +1554,7 @@ padding-bottom: var(--main-padding-bottom);
 /* end footer */
 /* start animation */
 
-@keyframes up-down {
+@keyframes up-and-down {
     0% , 100%{
         top: 0;
     }
