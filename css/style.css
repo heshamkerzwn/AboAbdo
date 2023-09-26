@@ -325,6 +325,10 @@ ul{
       font-size: 18px;
     }
   }
+  .landing .text p a {
+    font-weight: bold ;
+    color: var(--main-color);
+  }
   .landing .image img {
     position: relative;
     width: 600px;
@@ -342,6 +346,11 @@ ul{
     left: 50%;
     transform: translateX(-50%);
     transition: var(--main-transition);
+  }
+  @media (max-width: 767px) {
+    .landing .go-down{
+        bottom:50px;
+    }
   }
   .landing .go-down:hover {
     color: var(--main-color-alt);
