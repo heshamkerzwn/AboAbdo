@@ -18,6 +18,15 @@ html{
 body{
     font-family: 'Cairo', sans-serif;
 }
+
+.scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background-color:#0075ff;
+    z-index: 999;
+}
 a{
     text-decoration: none;
 }
@@ -231,7 +240,7 @@ ul{
       flex-direction: column;
       gap: 0;
       padding: 5px;
-      /* display: none; */
+      display: none;
     }
   }
   .header .mega-menu .image img {

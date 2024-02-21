@@ -34,3 +34,12 @@ landing.addEventListener("click", () => {
 });
 
 test.addEventListener("click", toggleMegaMenu);
+
+let sc = document.querySelector(".scroll");
+
+let height = document.body.scrollHeight - document.body.clientHeight;
+window.addEventListener("scroll", () => {
+  let topScroll = document.body.scrollTop;
+  sc.style.width = `${(topScroll / height) * 100}%`;
+  console.log((topScroll / height) * 100);
+});
