@@ -231,7 +231,7 @@ ul{
       flex-direction: column;
       gap: 0;
       padding: 5px;
-      display: none;
+      /* display: none; */
     }
   }
   .header .mega-menu .image img {
